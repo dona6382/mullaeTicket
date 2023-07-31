@@ -9,6 +9,7 @@ function settingOptions(){
     const salesCode = '00100300045';
     const unitPrice = '47300';
     const cookie = 'PHPSESSID='
+        + 'cgofola3bkgig6448mrt69u27q'
         + '; _ga=GA1.1.1908262919.1689579664; 342f86b2297eed1b3df8f15ce621c527=a2ltNjM4MjYzODI%3D; _ga_8Z1PVHFSHW=GS1.1.1690241638.4.1.1690241814.0.0.0';
 
     const headers = {
@@ -17,6 +18,7 @@ function settingOptions(){
         'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
         'Connection': 'keep-alive',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        // 'Cookie': 'PHPSESSID=cgofola3bkgig6448mrt69u27q; _ga=GA1.1.1908262919.1689579664; 342f86b2297eed1b3df8f15ce621c527=a2ltNjM4MjYzODI%3D; _ga_8Z1PVHFSHW=GS1.1.1690241638.4.1.1690241814.0.0.0',
         'Cookie': cookie,
         'Host': 'online122.youth.seoul.kr',
         'Origin': 'http://online122.youth.seoul.kr',
