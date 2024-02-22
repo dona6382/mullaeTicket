@@ -5,11 +5,9 @@ function settingOptions(){
     const url = 'http://online122.youth.seoul.kr/s_center/ajax.reservation_proc.php';
 
     //강의에 따른 변경
-    const salesCode = '00100300077';
+    const salesCode = '00100300074';
     const unitPrice = '47300';
-    const cookie = 'PHPSESSID='
-        + '4m3su2khmlkd1jnufpjfcartrk'
-        + '; _ga=GA1.1.1908262919.1689579664; 342f86b2297eed1b3df8f15ce621c527=a2ltNjM4MjYzODI%3D; _ga_8Z1PVHFSHW=GS1.1.1690241638.4.1.1690241814.0.0.0';
+    const cookie =`PHPSESSID=mm05hdmq2g3m05a7t74nugsdq4`;
 
     const headers = {
         'Accept': 'application/json, text/javascript, */*; q=0.01',
